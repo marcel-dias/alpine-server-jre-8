@@ -24,10 +24,10 @@ CMD java HelloWorld
 
 Then you need to build it
 ```bash
-docker build -t your-image-name .
+❯ docker build -t your-image-name .
 ```
 And you can run it
 ```bash
-docker run -ti --rm your-image-name
+❯ docker run -ti --rm your-image-name
 Java Hello World into a Docker Container!!
 ```
