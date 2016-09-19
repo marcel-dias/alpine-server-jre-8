@@ -12,7 +12,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.92-b14, mixed mode)
 ```
 
 ## Extending it
-Create a simple java HelloWorld class.
+Create a simple java HelloWorld class. You can see the example [here](https://github.com/marceldiass/alpine-server-jre-8/tree/master/extends)
 ```bash
 echo 'public class HelloWorld { public static void main(String... a) {System.out.println("Java Hello World into a Docker Container!!");}}' > HelloWorld.java
 ```
