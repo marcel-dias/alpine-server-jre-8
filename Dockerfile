@@ -2,12 +2,12 @@ FROM alpine:3.4
 
 MAINTAINER Marcel Dias <marceldiass@gmail.com>
 LABEL Description="It is an AlpineLinux 3.4 with Oracle Server JRE 8 image"
-LABEL SERVER-JRE-VERSION="8u92-b14"
+LABEL SERVER-JRE-VERSION="8u112-b15"
 
 # Java Version and other ENV
 ENV JAVA_VERSION_MAJOR=8 \
-   JAVA_VERSION_MINOR=92 \
-   JAVA_VERSION_BUILD=14 \
+   JAVA_VERSION_MINOR=112 \
+   JAVA_VERSION_BUILD=15 \
    JAVA_PACKAGE=server-jre \
    JAVA_HOME=/opt/jdk \
    PATH=${PATH}:/opt/jdk/bin \
