@@ -1,7 +1,7 @@
 FROM alpine:3.4
 
 MAINTAINER Marcel Dias <marceldiass@gmail.com>
-LABEL Description="It is an AlpineLinux 4.3 with Oracle Server JRE 8 image"
+LABEL Description="It is an AlpineLinux 3.4 with Oracle Server JRE 8 image"
 LABEL SERVER-JRE-VERSION="8u92-b14"
 
 # Java Version and other ENV
