@@ -1,7 +1,7 @@
 [![](https://images.microbadger.com/badges/image/marceldiass/alpine-server-jre-8.svg)](https://microbadger.com/images/marceldiass/alpine-server-jre-8 "Get your own image badge on microbadger.com")
 
 # alpine-server-jre-8
-It is an AlpineLinux 4.3 with Oracle Server JRE 8 image
+It is an AlpineLinux 3.4 with Oracle Server JRE 8 image
 
 ## How to use it
 ```bash
