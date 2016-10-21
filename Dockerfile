@@ -32,3 +32,5 @@ RUN apk upgrade --update && \
         ln -s /opt/jdk1.${JAVA_VERSION_MAJOR}.0_${JAVA_VERSION_MINOR} /opt/jdk && \
     apk del curl glibc-i18n && \
     rm -rf /tmp/* /var/cache/apk/*
+
+CMD ["java", "-version"]
