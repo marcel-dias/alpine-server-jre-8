@@ -5,10 +5,10 @@ It is an AlpineLinux 3.4 with Oracle Server JRE 8 image
 
 ## How to use it
 ```bash
-❯ docker run -ti --rm marceldiass/alpine-server-jre-8 java -version
-java version "1.8.0_92"
-Java(TM) SE Runtime Environment (build 1.8.0_92-b14)
-Java HotSpot(TM) 64-Bit Server VM (build 25.92-b14, mixed mode)
+❯ docker run -ti --rm marceldiass/alpine-server-jre-8
+java version "1.8.0_112"
+Java(TM) SE Runtime Environment (build 1.8.0_112-b15)
+Java HotSpot(TM) 64-Bit Server VM (build 25.112-b15, mixed mode)
 ```
 
 ## Extending it
